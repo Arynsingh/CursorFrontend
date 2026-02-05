@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang = em>
+<html lang = "en">
     <head>
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CURSOR</title>
         <style>
-            *{
-                background-color: #000;
-                font-family: "Montserrat", "Poppins", "Questrial", "Josefin Sans", "Raleway", sans-serif;
-            }
+           body{
+   background-color: #000;
+}
+
             #navigation{
                 color: #fff;
                 display: flex;
                 justify-content: space-around;
                 align-items: stretch;
                 padding: 10px;
-                
+                margin-right: 20px;
             }
             .child1{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,47 +28,49 @@
                 border-radius: 100px;
                 border: none;
                 font-size: smaller ;
+                background-color: #000;
             }
             button:hover{
                 cursor: pointer;
-                background: scroll;
+                background: transparent;
                 border: none;
                 color: #ccc;
             }
             .child2{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                color: #ffff;
+                color: #fff;
                 word-spacing: 15px;
                 background-color: #000;
                 border: none;
                 
                 
             }
-            .child3{
+            #ccshild3{
                 display: flex;
                 justify-content: flex-end;
+                border-color: #adabab;
             }
             .Sign{
                 border-radius: 100px;
                 color: #fff;
-                background-color:#000;
+                background-color:#504e4e;
                 border-color: #b0a8a8;
+                width: 70px;
 
             }
             .Sign:hover{
                 cursor: pointer;
-                background-color: #adabab;
+                background-color: #454444;
                 color: #fff;
             }
             .Download{
                 border-radius: 100px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
                 color: #000000;
                 background-color: #fff;
             }
             .Download:hover{
                 cursor: pointer;
-                
                 background-color: #ccc;
                 color: #000;
             }
@@ -93,14 +95,33 @@
             }
             img{
                 align-self: center;
-                width: 5fr;
-                height: 600px;
+                width: 85%;
+                height: 690px;
 
                 
             }
-            .child1{
-                center
+ 
+            #containers{
+                color: #fff;
+                display: flex;
+               justify-content: space-between;
+               padding-left: 30px;
+               margin-left: 200px;
+               margin-right: 230px;
+               margin-top: 40px;
+
             }
+            .x{
+                margin-left: 200px;
+                margin-top: 100px;
+            }
+            #grid{
+                color: white;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns:  1fr 1fr;
+            }
+           
 
         </style>
 
@@ -109,8 +130,8 @@
     <body>
             <nav id="navigation">
                 <div class="child1">
-                <img src="pic used/Icon.jpeg" style="width: 40px; height: 40px; padding-top: 5px;">
-                <img src="pic used/Cursor_Logo_2.webp" style="width: 60px; height: 15px; background-color: #000; padding-bottom: ;">
+                <img src="pic used/Icon.jpeg" style="width: 40px; height: 40px;">
+                <img src="pic used/Cursor_Logo_2.webp" style="width: 70px; height: 15px; background-color: #000; padding-bottom:10px  ;">
                 </div>
                 <div class="child2">
                 <button>Features</button>               
@@ -126,16 +147,48 @@
             </nav>
             <br><br>
             <div id="body">
-                <h2>Built to make you extraordinary productive,<br>
+                <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Built to make you extraordinary productive,<br>
                     Cursor is the best way to Code with AI.
                 </h2>
                 <button class="dld">Download for macOS </button>
             </div>
             <br>
             <br>
+            <br>
             <div id="lowerbody">
                 <img src="pic used/Screenshot 2026-02-04 at 3.43.34 AM.png" alt="Wassup">
             </div>
-           
+             <p style="color: #fff; margin-left: 40%; margin-top: 40px;">Trusted every day by teams that build world-class software</p>
+            <div id="containers">
+                <div id="stripe" >
+                    <img src="pic used/Stripe_Logo_1.png" style="width: 100px; height: 30px; padding-top: 40px;">
+                </div>
+                <div>
+                    <img src="pic used/OpenAI_Logo_2.webp" style="width: 90px; height: 80px; padding-top: 20px;">
+                </div>
+                <div>
+                    <img src="pic used/Linear_Logo_2.webp" style="width: 100px; height: 30px; padding-top: 40px;">
+                </div>
+                <div>
+                    <img src="pic used/Datadog_idCMomAtXV_1.png" style="width: 100px; height: 30px; padding-top: 40px;">
+                </div>
+                <div>
+                    <img src="pic used/Nvidia-Logo-PNG-Image.webp" style="width: 90px; height: 50px; padding-top: 35px;">
+                </div>
+                <div>
+                    <img src="pic used/Figma_Logo_2.webp" style="width: 80px; height: 40px; padding-top: 35px;">
+                </div>
+            </div>
+          <div class="x">
+            <img src="pic used/Screenshot 2026-02-05 at 1.47.49 PM.png">
+          </div>
+          <div class="x">
+            <img src="pic used/Screenshot 2026-02-05 at 1.51.34 PM.png">
+          </div>
+          <div class="x">
+            <img src="pic used/Screenshot 2026-02-05 at 1.57.20 PM.png">
+          </div>
+          <h1 style="color: #fff; margin-left: 40%; margin-top: 200px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">The new way to build software.</h1>
+       
     </body>
 </html>
